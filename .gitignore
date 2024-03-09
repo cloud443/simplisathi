@@ -1,0 +1,48 @@
+# Ignore vendor directory
+/vendor/
+
+# Ignore node_modules directory
+/node_modules/
+
+# Ignore IDE files
+/.idea/
+/.vscode/
+
+# Ignore environment files
+.env
+
+# Ignore composer lock file
+composer.lock
+
+# Ignore log files
+/storage/logs/
+
+# Ignore compiled files
+/public/css/
+/public/js/
+
+# Ignore database
+/database/*.sqlite
+/database/*.sqlite3
+/database/backup/*.sql
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore sensitive information
+secret*
+
+# Ignore backup files
+*.bak
+*.backup
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore cache files
+/cache/
+
+/install
+install/*
